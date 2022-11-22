@@ -1,0 +1,69 @@
+nav.top-nav {
+    background-color: purple;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+body {
+    background-color: #CBC3E3;
+}
+main {
+    margin-top: 100px;
+    margin-left: 2em;
+}
+main h1 {
+    font-family: sans-serif;
+}
+nav.top-nav li {
+    display: inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 5px;
+}
+nav.top-nav li a {
+    color: black;
+    text-decoration: none;
+}
+nav.top-nav li:hover {
+    text-decoration: underline;
+}
+.headshot {
+    width: 400px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+.contact-info div {
+    margin-top: 10px;
+    font-size: 25px;
+}
+.bio {
+    font-size: 20px;
+}
+.resume-link {
+    font-size: 30px;
+}
+.project a {
+    display: flex;
+    border: solid black;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.project div {
+    margin: 20px;
+    font-size: 30px;
+}
+.project img {
+    border: solid black;
+    margin: 5px;
+}
+.project a img {
+    width: 200px;
+    height: 200px;
+}
+.project-details img {
+    width: 400px;
+    height: 400px;
+}
