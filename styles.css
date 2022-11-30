@@ -28,21 +28,28 @@ nav.top-nav li a {
 nav.top-nav li:hover {
     text-decoration: underline;
 }
+.selected-page {
+    background-color: white;
+}
+/* bio */
 .headshot {
     width: 400px;
     height: 450px;
     margin-bottom: 30px;
 }
+.bio {
+    font-size: 20px;
+}
+/* contact info */
 .contact-info div {
     margin-top: 10px;
     font-size: 25px;
 }
-.bio {
-    font-size: 20px;
-}
+/* resume */
 .resume-link {
     font-size: 30px;
 }
+/* projects */
 .project a {
     display: flex;
     border: solid black;
